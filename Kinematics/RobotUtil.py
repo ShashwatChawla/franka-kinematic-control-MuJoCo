@@ -73,7 +73,7 @@ def MatrixExp(axis: np.ndarray, theta: float)->np.ndarray:
 def so3(axis: np.ndarray)->np.ndarray:
     """
     Returns the skew symmetric matrix of a vector
-    """
+    """ 
     so3_axis = np.asarray([
         [0, -axis[2], axis[1]],
         [axis[2], 0, -axis[0]],
